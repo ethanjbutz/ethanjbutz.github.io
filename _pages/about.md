@@ -28,7 +28,3 @@ latest_posts:
 ---
 
 This is a link to the [PSSL](https://pssl.mae.ufl.edu/) website.
-
-Add to the [publications page](/al-folio/publications/) automatically.
-
-This uses [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
