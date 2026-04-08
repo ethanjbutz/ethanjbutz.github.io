@@ -2,7 +2,7 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/Ethan_Butz_CV_V4_2026.pdf # path to your CV PDF file
-email: ethanbutz@gmail.com # your email address
+email: ethanbutz@ufl.edu # your email address
 linkedin_username: ethanbutz
 letterboxd_id: dracontiger
 discord_id: 392720202376282112

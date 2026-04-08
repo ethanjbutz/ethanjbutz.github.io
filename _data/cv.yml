@@ -1,7 +1,7 @@
 cv:
   name: Ethan J. Butz
   label: PhD Candidate
-  email: ethanbutz@gmail.com
+  email: ethanbutz@ufl.edu
   location: Gainesville, FL
   #image: ""
   #summary: ""
@@ -23,7 +23,7 @@ cv:
         area: Aerospace Engineering
         studyType: PhD
         start_date: 2023
-        end_date: 2027
+        end_date:
         highlights:
           - Researching under Dr. John W. Conklin at PSSL
 
@@ -52,53 +52,100 @@ cv:
           - Awarded B.S. in both Mechanical and Aerospace Engineering
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Precision Space Systems Laboratory
+        position: Graduate Research Assistant
+        location: Gainesville, FL
+        start_date: 2024
+        end_date:
+        summary: Reseracher on the NASA ESTO GRATTIS mission focused on design, testing, metrology, and integration of the sensor packages to reach performance goals.
         highlights:
-          - Relativity
-          - Description 2.
+          - GRATTIS Electronics Testing and Design | January 2024 to January 2025
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+            - Validated noise floor performance of capacitance sensing electronics for electrostatic gravity sensor
+
+            - Drafted multiple custom circuit boards for sensor test validation and collaborating lab projects
+
+            - Assembled equipment and developed data collection programs for testing flight components
+
+          - GRATTIS Mechanical Design and Metrology | May 2024 to Present
+
+            - Designed hardware and electronics testing equipment for the GRATTIS gravitational reference sensor
+
+            - Manufactured critical electrostatic sensor components to micrometer precision in exotic materials
+
+            - Acquired and operated a CMM to characterize flight assembly precision to support science objectives
+
+          - GRATTIS Payload Integration and Mission Management | May 2025 to Present
+
+            - Ran finite element simulations of flight components under launch loads to inform mechanical design
+
+            - Supported DMIG integration from multiple teams for a full spacecraft thermal and structural analysis
+
+            - Developed instrument integration procedures and metrology programs for payload assembly and testing
+
+      - company: University of Florida's Design and Manufacturing Lab
+        position: Undergraduate Teaching Assistant
+        location: Gainesville, FL
+        start_date: 2021
+        end_date: 2023
+        summary: Teaching assistant for design and manufacturing courses focused on hands-on learning, active manufacturing shop maintenance and management, and coursework development.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Mech 3 Technical Engineer | May 2023 to August 2023
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+            - Reviewed and gave feedback on student team designs and part drawings for a capstone project class
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+            - Managed assembly process and manufactured custom parts for final design projects
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+            - Taught lecture on design for manufacturing and proper dimensioning and tolerancing
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+          - Lead Teaching Assistant | May 2022 to August 2023
+
+            - Developed new course curriculum for Fall 2022 to adapt to new budgetary and scheduling constraints
+
+            - Re-structured lab environment using the 5S system to optimize storage and create space for new machines
+
+            - Supervised teams of teaching assistants in student lab sections to ensure safe and effective shop operation
+
+          - Teaching Assistant | May 2021 to December 2021
+
+            - Taught students traditional manufacturing techniques on lathes and mills, both manual and CNC
+
+            - Led students through learning and applying DFM in concept generation, selection, and implementation
+
+            - Collaborated with other teaching assistants and faculty to maintain the UF student machine shop
+
+      - company: GE Appliances
+        position: Technology Co-Op Intern
+        location: Louisville, KY
+        start_date: 2022
+        end_date: 2022
+        summary: Engineering intern focused on mechanical design, finite element analysis, and systems testing for novel appliance development.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Adapted aspects of a finalized product design to accommodate a UL2158 revision expected post-launch
+          - Conducted tests on DC units to evaluate metrics for automated consumer maintenance notifications
+          - Prototyped and designed over 30 concept iterations to fit a new part within the finalized design constraints
+
+      - company: University of Florida's Dean of Student's Office
+        position: Student Assistant
+        location: Gainesville, FL
+        start_date: 2019
+        end_date: 2021
+        summary: Receptionist and processing assistant for sensitive medical petitions and general customer service at the dean's office.
+        highlights:
+          - Worked with a team to manage over 4000 medical petitions protected by FERPA and HIPAA law
+          - Developed crisis management skills while helping students complete their trauma related petitions
+          - Communicated with students and faculty to troubleshoot and optimize new online portal
+
+    # Volunteer:
+    #   - company: CRU
+    #     position: Student
+    #     location: Cape Town, South Africa
+    #     start_date: 2016-06-01
+    #     end_date: 2016-07-01
+    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    #     highlights:
+    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #       - "Men of the year 2014 by Time magazine"
 
     # Awards:
     # - title: Nobel Prize in Physics
@@ -118,11 +165,11 @@ cv:
     #   url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
     #   summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    # Skills:
+    #   - name: Physics
+    #     level:
+    #     icon: fa-solid fa-hashtag
+    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     #Languages:
     # - name: German
@@ -131,35 +178,80 @@ cv:
     # - name: English
     #   summary: "Fluent"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    # Interests:
+    #   - name: Physics
+    #     icon: fa-solid fa-tag
+    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: Solidworks Mehanical Design Associate Certification
+        date: 2018-08
+        issuer: Dassault Systems
+        icon: fa-solid fa-file
 
     Projects:
-      - name: Gravitational Reference Advanced Technology Test in Space
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: "LILAC (Lunar Imaging, Low Altitude CubeSat) Design Project"
+        summary: Senior capstone Cubesat project in alignment with requirements for a NASA cubesat request to launch from Artemis 2 to image three possible lunar landing sites for Artemis 3.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
+          - Collaborated with a team of eight to design a 12U CubeSat that could image landing sites on the moon
+          - Coordinated teammates in an integration role to accommodate each system within mass and size constraints
+          - Created CAD models and full assemblies of the CubeSat and performed FEA analysis on structural elements
+          - Developed the electrical system for the CubeSat to generate and deliver power during the one-month mission
         start_date: 2023
-        end_date: 2027
+        end_date: 2023
+
+      - name: Treadmill Tricycle Design Project
+        summary: A mechanical design project to create a tricycle powered by walking on a mounted treadmill-like surface to power movement.
+        highlights:
+          - Collaborated with a team on designing a tricycle powered by linear motion on a treadmill belt
+          - Performed analysis on the selection of gears, snap rings, shafts, ball bearings, keys, and keyways
+          - Created CAD models and assemblies of the design for FEA analysis and motion studies
+          - Wrote a technical report detailing analysis and summarizing results
+        start_date: 2021
+        end_date: 2021
+
+      - name: Decommissioned Airplane Seat Universal Remote
+        summary: Personal project to reporpose controllers embedded into the armrests of 90s aircraft seats to send IR signals for controlling multiple media consoles and TVs.
+        highlights:
+          - Reverse engineered TV remotes to understand, intercept, and log their IR signals using an Arduino circuit
+          - Constructed a second Arduino circuit capable of emulating the IR signals of multiple remotes from one emitter
+          - Designed and printed a case and keys to house a custom printed PCB, Arduino, and power source for regular use
+        start_date: 2020
+        end_date: 2024
 
     References:
       - name: Dr. John W. Conklin
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        icon: fa-solid fa-user
+        reference:
+          Professor and Assistant Director of the Astraeus Space Institute <br>
+          Department of Mechanical and Aerospace Engineering, University of Florida <br>
+          jwconklin@ufl.edu <br>
+          (352) 392-0614
 
       - name: Dr. Peter Wass
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        icon: fa-solid fa-user
+        reference: Research Scientist <br>
+          Department of Mechanical and Aerospace Engineering, University of Florida <br>
+          pwass@ufl.edu <br>
+          (352) 392-6746
 
       - name: Dr. Sean Niemi
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        icon: fa-solid fa-user
+        reference: Associate Professor <br>
+          Department of Mechanical and Aerospace Engineering, University of Florida <br>
+          srn@mae.ufl.edu <br>
+          (352) 294-3381
+
+      - name: Dr. Simon Barke
+        icon: fa-solid fa-user
+        reference: Research Assistant Scientist <br>
+          Department of Mechanical and Aerospace Engineering, University of Florida <br>
+          barke@ufl.edu <br>
+          (352) 507-9970
+
+      - name: Nadene Reynolds
+        icon: fa-solid fa-user
+        reference: Assistant Dean & Director of CARE <br>
+          Dean of Students Office, University of Florida <br>
+          nfreynolds@ufl.edu <br>
+          (352) 294-3617
