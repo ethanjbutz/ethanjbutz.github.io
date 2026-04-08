@@ -4,7 +4,7 @@ cv:
   email: ethanbutz@gmail.com
   location: Gainesville, FL
   image: ""
-  summary: 
+  summary:
 
   social_networks:
 
@@ -50,9 +50,6 @@ cv:
         highlights:
           - "GPA: 3.84"
           - Awarded B.S. in both Mechanical and Aerospace Engineering
-
-
-
 
     Experience:
       - company: Institute for Advanced Study, Princeton University
@@ -162,7 +159,7 @@ cv:
       - name: Dr. Peter Wass
         icon: fa-solid fa-thumbtack
         reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-        
+
       - name: Dr. Sean Niemi
         icon: fa-solid fa-thumbtack
         reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
