@@ -7,7 +7,7 @@ year: 2021 to 2023
 term:
 location: MAE-C 002
 time: 
-course_id: intro-machine-learning
+course_id: EML2322L
 # schedule:
 #   - week: 1
 #     date:
@@ -108,12 +108,6 @@ prototyping phase of design
 - design, fabricate & test a prototype of one device
 - create a proper design report, focusing on content, formatting, and proofing
 - understand the importance of efficient project (time & resource) management
-
-## Prerequisites
-
-- Professional written and verbal communication
-- Experience in computer aided design
-- mechanics fundamentals
 
 ## My Contributions
 Lead Teaching Assistant | May 2022 to August 2023
