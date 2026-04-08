@@ -194,7 +194,12 @@ html[data-theme-setting="light"] {
 .fa-half-sun-moon::after {
   content: "\f185";
   color: var(--global-text-color);
-  clip-path: polygon(calc(50% + 0.5px) 0, 100% 0, 100% 100%, calc(50% + 0.5px) 100%);
+  clip-path: polygon(
+    calc(50% + 0.5px) 0,
+    100% 0,
+    100% 100%,
+    calc(50% + 0.5px) 100%
+  );
   right: -1.5px; /* slight overflow to avoid right-edge clipping */
   transform: translateX(-1px); /* visually re-center the sun half */
 }
@@ -205,4 +210,9 @@ html[data-theme-setting="light"] {
 
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
+}
+
+/* Invert the PSSL logo to white in dark mode */
+html[data-theme="dark"] img[src*="PSSL_Black_Square.svg"] {
+  filter: invert(1);
 }
