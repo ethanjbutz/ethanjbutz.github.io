@@ -1,6 +1,6 @@
 cv:
   name: Ethan J. Butz
-  label: PhD Candidate
+  label: "PhD Candidate"
   email: ethanbutz@gmail.com
   location: Gainesville, FL
   image: ""
@@ -23,7 +23,7 @@ cv:
         area: Aerospace Engineering
         studyType: PhD
         start_date: 2023
-        end_date: Present
+        end_date: 2027
         highlights:
           - Researching under Dr. John W. Conklin at PSSL
 
@@ -100,7 +100,7 @@ cv:
           - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
           - "Men of the year 2014 by Time magazine"
 
-    Awards:
+    # Awards:
       # - title: Nobel Prize in Physics
       #   authors:
       #     - "Royal Swedish Academy of Sciences"
@@ -109,7 +109,7 @@ cv:
       #   url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
       #   summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-    Publications:
+    # Publications:
       # - title: Zur Elektrodynamik bewegter Körper
       #   authors:
       #     - Albert Einstein
