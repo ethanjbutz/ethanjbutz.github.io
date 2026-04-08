@@ -187,7 +187,6 @@ cv:
       - name: Solidworks Mehanical Design Associate Certification
         date: 2018-08
         issuer: Dassault Systems
-        icon: fa-solid fa-file
 
     Projects:
       - name: "LILAC (Lunar Imaging, Low Altitude CubeSat) Design Project"
@@ -221,7 +220,6 @@ cv:
 
     References:
       - name: Dr. John W. Conklin
-        icon: fa-solid fa-user
         reference:
           Professor and Assistant Director of the Astraeus Space Institute <br>
           Department of Mechanical and Aerospace Engineering, University of Florida <br>
@@ -229,28 +227,24 @@ cv:
           (352) 392-0614
 
       - name: Dr. Peter Wass
-        icon: fa-solid fa-user
         reference: Research Scientist <br>
           Department of Mechanical and Aerospace Engineering, University of Florida <br>
           pwass@ufl.edu <br>
           (352) 392-6746
 
       - name: Dr. Sean Niemi
-        icon: fa-solid fa-user
         reference: Associate Professor <br>
           Department of Mechanical and Aerospace Engineering, University of Florida <br>
           srn@mae.ufl.edu <br>
           (352) 294-3381
 
       - name: Dr. Simon Barke
-        icon: fa-solid fa-user
         reference: Research Assistant Scientist <br>
           Department of Mechanical and Aerospace Engineering, University of Florida <br>
           barke@ufl.edu <br>
           (352) 507-9970
 
       - name: Nadene Reynolds
-        icon: fa-solid fa-user
         reference: Assistant Dean & Director of CARE <br>
           Dean of Students Office, University of Florida <br>
           nfreynolds@ufl.edu <br>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GRATTIS
-description: Gravitational Reference Advanced Technology Test in Space - A NASA ESTO funded satellite mission with the goal to confirm performance of the S-GRS, an ultra-sensitive electrostatic inertial accelerometer in space. 
+description: Gravitational Reference Advanced Technology Test in Space - A NASA ESTO funded satellite mission with the goal to confirm performance of the S-GRS, an ultra-sensitive electrostatic inertial accelerometer in space.
 img: assets/img/GRATTIS_Geoid-88_4kb_cropped.png
 importance: 1
 category: work
@@ -70,10 +70,12 @@ Here's the code for the last row of images above:
 ```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/6.jpg" title="example image"
+    class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/11.jpg" title="example image"
+    class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 ```
