@@ -214,7 +214,7 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
-/* Bulletproof dark mode invert for the PSSL logo */
-html[data-theme="dark"] a[href*="pssl.mae.ufl.edu"] {
+/* Invert the PSSL SVG in dark mode */
+html[data-theme="dark"] a[title="PSSL"] svg {
   filter: invert(1) !important;
 }
