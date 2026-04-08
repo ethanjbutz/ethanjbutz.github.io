@@ -1,12 +1,12 @@
 ---
 layout: course
 title: Mechanical Engineering Design 3
-description: Design and realization of a mechanical engineering system, component, or process subject to appropriate standards and constraints applied in a team project. 
+description: Design and realization of a mechanical engineering system, component, or process subject to appropriate standards and constraints applied in a team project.
 instructor: Dr. Matthew J. Traum and Dr. Ting Dong
 year: Summer 2023
 term:
 location: MAE-C 010
-time: 
+time:
 course_id: EML4502
 # schedule:
 #   - week: 1
@@ -88,18 +88,20 @@ course_id: EML4502
 ## Course Overview
 
 1. Develop an ability to apply engineering design to produce solutions that meet specified needs with consideration of
-public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors.
-[Final Design Deck]
+   public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors.
+   [Final Design Deck]
 2. Communicate effectively with a range of audiences
-[Final Design Deck & Final Oral Presentation]
+   [Final Design Deck & Final Oral Presentation]
 3. Function effectively on a creating, collaborative, and inclusive team that establishes goals, plans tasks, and
-meet objectives.
-[Peer Evaluations]
+   meet objectives.
+   [Peer Evaluations]
 4. Acquire and apply new knowledge as needed using appropriate learning strategies.
-[Milestones & Performance Evaluations]
+   [Milestones & Performance Evaluations]
 
 ## My Contributions
+
 Mech 3 Technical Engineer
+
 - Reviewed and gave feedback on student team designs and part drawings for a capstone project class
 - Managed assembly process and manufactured custom parts for final design projects
 - Taught lecture on design for manufacturing and proper dimensioning and tolerancing

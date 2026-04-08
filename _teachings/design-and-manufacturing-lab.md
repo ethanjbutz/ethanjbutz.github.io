@@ -6,7 +6,7 @@ instructor: Dr. Sean Niemi
 year: 2021 to 2023
 term:
 location: MAE-C 002
-time: 
+time:
 course_id: EML2322L
 # schedule:
 #   - week: 1
@@ -88,11 +88,12 @@ course_id: EML2322L
 ## Course Overview
 
 The principal goals of the MAE Design and Manufacturing Laboratory are threefold:
+
 - educate students in traditional manufacturing processes
 - provide an understanding of how cost and performance are heavily influenced by manufacturing processes and
-dimensional tolerancing
+  dimensional tolerancing
 - teach students to consider manufacturing and assembly processes in the design process from concept generation to
-prototyping
+  prototyping
 
 This course is structured to present a thoughtful, consistent, systems-based approach to engineering design. You will
 develop the ability to create and present an integrated design of a mechanical system. This course will require working in
@@ -100,22 +101,26 @@ groups, writing engineering reports, and presenting technical material of your e
 techniques, incorporate design analysis, and apply your engineering knowledge to solving a variety of open-ended design
 challenges.
 Specifically, at the end of this course every student should:
+
 - be able to identify and apply the steps of the design process, with an emphasis on data driven justifications
 - be familiar with typical traditional manufacturing processes and equipment
 - understand the function of CNC machine tools (programming, operation, flexibility) and where they fit into the
-prototyping phase of design
+  prototyping phase of design
 - understand the fundamental methods of electric arc welding
 - design, fabricate & test a prototype of one device
 - create a proper design report, focusing on content, formatting, and proofing
 - understand the importance of efficient project (time & resource) management
 
 ## My Contributions
+
 Lead Teaching Assistant | May 2022 to August 2023
+
 - Developed new course curriculum for Fall 2022 to adapt to new budgetary and scheduling constraints
 - Re-structured lab environment using the 5S system to optimize storage and create space for new machines
 - Supervised teams of teaching assistants in student lab sections to ensure safe and effective shop operation
 
 Teaching Assistant | May 2021 to December 2021
+
 - Taught students traditional manufacturing techniques on lathes and mills, both manual and CNC
 - Led students through learning and applying DFM in concept generation, selection, and implementation
 - Collaborated with other teaching assistants and faculty to maintain the UF student machine shop
