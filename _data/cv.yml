@@ -1,12 +1,12 @@
 cv:
   name: Ethan J. Butz
-  label: "PhD Candidate"
+  label: PhD Candidate
   email: ethanbutz@gmail.com
   location: Gainesville, FL
   image: ""
-  summary:
+  summary: ""
 
-  social_networks:
+  #social_networks:
 
   address:
     street: 1064 Center Drive
@@ -124,12 +124,12 @@ cv:
         icon: fa-solid fa-hashtag
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-    Languages:
-      # - name: German
-      #   summary: "Native speaker"
+    #Languages:
+    # - name: German
+    #   summary: "Native speaker"
 
-      # - name: English
-      #   summary: "Fluent"
+    # - name: English
+    #   summary: "Fluent"
 
     Interests:
       - name: Physics
@@ -149,7 +149,7 @@ cv:
           - Quantum Teleportation
           - Quantum Cryptography
         start_date: 2023
-        end_date: Present
+        end_date: 2027
 
     References:
       - name: Dr. John W. Conklin

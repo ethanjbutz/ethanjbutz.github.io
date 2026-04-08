@@ -6,8 +6,6 @@ Here we will give you some tips on how to customize the website. One important t
 
 <!--ts-->
 
-
-
 <!--te-->
 
 ## Project structure
