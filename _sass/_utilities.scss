@@ -607,18 +607,19 @@ mjx-container[jax="CHTML"][display="true"] {
 }
 
 /* 1. Hide the original generated image */
-a[href*="pssl.mae.ufl.edu"] > * {
+body .social a[href*="pssl.mae.ufl.edu"] > * {
   display: none !important; 
 }
 
 /* 2. Fix the Anchor Tag's Bounding Box */
-a[href*="pssl.mae.ufl.edu"] {
-  display: inline-block;
+body .social a[href*="pssl.mae.ufl.edu"] {
+  display: inline-block !important;
   line-height: 1 !important; 
 }
 
 /* 3. Create the colorable stencil */
-a[href*="pssl.mae.ufl.edu"]::before {
+/* Notice: No !important on the background color here, so the hover can easily override it */
+body .social a[href*="pssl.mae.ufl.edu"]::before {
   content: "";
   display: inline-block;
   
@@ -634,8 +635,8 @@ a[href*="pssl.mae.ufl.edu"]::before {
   vertical-align: -0.125em; 
 }
 
-/* 4. The Nuclear Hover Fix */
-a[href*="pssl.mae.ufl.edu"]:hover::before {
-  /* Hardcode your exact blue here (e.g., #007bff or whatever your theme uses) */
+/* 4. The Indestructible Hover Fix */
+body .social a[href*="pssl.mae.ufl.edu"]:hover::before {
+  /* This completely ignores the template and forces the blue hex code */
   background-color: #007bff !important; 
 }
