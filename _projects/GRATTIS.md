@@ -15,7 +15,7 @@ It consists of a free-falling cubic test mass inside an electrode housing that s
 The improved performance of the S-GRS is enabled by removing the small grounding wire used in the GRACE accelerometers, which limits its performance, and replacing it with a UV LED-based charge management system, increasing the mass of the sensor’s TM, and increasing the gap between the TM and its electrode housing. 
 GRATTIS will fly two identical S-GRS mounted next to one another at the center of mass of a 160 kg ESPA-class commercial microsatellite with a planned launch in 2027. 
 The six-axis acceleration measurement capability of the S-GRS allows precision measurement of the spacecraft drag-induced translational acceleration, as well as the residual angular acceleration of the nominally inertially-pointed bus. 
-By combining the outputs of each sensor and with the known relative position of the two TMs, we can recover the acceleration sensitivity (noise floor) of the S-GRS. [1]
+By combining the outputs of each sensor and with the known relative position of the two TMs, we can recover the acceleration sensitivity (noise floor) of the S-GRS [1].
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
