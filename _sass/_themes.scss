@@ -218,3 +218,18 @@ html[data-theme-setting="light"] {
 html[data-theme="light"] a[title="PSSL"] svg {
   filter: invert(1) !important;
 }
+
+/* 1. Ensure the hover overrides the light mode invert perfectly */
+html[data-theme="light"] a[title="PSSL"]:hover svg,
+html[data-theme="dark"] a[title="PSSL"]:hover svg {
+  filter: none !important;
+}
+
+/* 2. Force the inner shapes of the SVG to take the theme color */
+a[title="PSSL"]:hover svg path,
+a[title="PSSL"]:hover svg rect,
+a[title="PSSL"]:hover svg circle,
+a[title="PSSL"]:hover svg polygon {
+  fill: var(--global-theme-color) !important;
+  stroke: var(--global-theme-color) !important; /* Included just in case it's an outlined SVG */
+}
