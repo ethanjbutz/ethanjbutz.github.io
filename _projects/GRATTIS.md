@@ -8,18 +8,14 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The Gravitational Reference Advanced Technology Test In Space (GRATTIS) mission will demonstrate the end-to-end functionality and sensitivity performance of the Simplified Gravitational Reference Sensor (S-GRS), an ultra-precise inertial sensor for future Earth geodesy missions. 
+These sensors are used to measure or compensate for all non-gravitational accelerations of the host spacecraft so that they can be removed in the data analysis to recover spacecraft motion due to Earth’s gravity field, the main science observable. 
+The S-GRS concept is a simplified version of the flight-proven LISA Pathfinder GRS. 
+It consists of a free-falling cubic test mass inside an electrode housing that senses the position and orientation of the test mass and electrostatically applies forces and torques to it to keep it centered at a nanometer-level. 
+The improved performance of the S-GRS is enabled by removing the small grounding wire used in the GRACE accelerometers, which limits its performance, and replacing it with a UV LED-based charge management system, increasing the mass of the sensor’s TM, and increasing the gap between the TM and its electrode housing. 
+GRATTIS will fly two identical S-GRS mounted next to one another at the center of mass of a 160 kg ESPA-class commercial microsatellite with a planned launch in 2027. 
+The six-axis acceleration measurement capability of the S-GRS allows precision measurement of the spacecraft drag-induced translational acceleration, as well as the residual angular acceleration of the nominally inertially-pointed bus. 
+By combining the outputs of each sensor and with the known relative position of the two TMs, we can recover the acceleration sensitivity (noise floor) of the S-GRS. [1]
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

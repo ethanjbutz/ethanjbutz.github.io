@@ -607,35 +607,35 @@ mjx-container[jax="CHTML"][display="true"] {
 }
 
 /* 1. Hide the original generated image */
-a[href="https://pssl.mae.ufl.edu"] > * {
+a[href*="pssl.mae.ufl.edu"] > * {
   display: none !important; 
 }
 
 /* 2. Fix the Anchor Tag's Bounding Box */
-a[href="https://pssl.mae.ufl.edu"] {
+a[href*="pssl.mae.ufl.edu"] {
   display: inline-block;
   line-height: 1 !important; 
 }
 
 /* 3. Create the colorable stencil */
-a[href="https://pssl.mae.ufl.edu"]::before {
+a[href*="pssl.mae.ufl.edu"]::before {
   content: "";
   display: inline-block;
   
   height: 0.95em;
   width: 1em; 
   
-  /* Use the theme's text color for the default state so it handles light/dark mode */
   background-color: var(--global-text-color); 
   
   -webkit-mask: url('https://ethanjbutz.github.io/assets/img/PSSL_White_Square_Website.svg') no-repeat center / contain;
   mask: url('https://ethanjbutz.github.io/assets/img/PSSL_White_Square_Website.svg') no-repeat center / contain;
   
+  transition: background-color 0.2s ease-in-out;
   vertical-align: -0.125em; 
 }
 
 /* 4. The Nuclear Hover Fix */
-a[href="https://pssl.mae.ufl.edu"]:hover::before {
-  /* Hardcode your exact blue hex code here. This completely ignores the theme's variables! */
+a[href*="pssl.mae.ufl.edu"]:hover::before {
+  /* Hardcode your exact blue here (e.g., #007bff or whatever your theme uses) */
   background-color: #007bff !important; 
 }
