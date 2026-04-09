@@ -215,7 +215,7 @@ html[data-theme-setting="light"] {
 }
 
 /* Invert the PSSL SVG in dark mode */
-html[data-theme="light"] a[title="PSSL"] svg {
+html[data-theme="dark"] a[title="PSSL"] svg {
   filter: invert(1) !important;
 }
 
