@@ -218,3 +218,11 @@ html[data-theme-setting="light"] {
 html[data-theme="light"] a[title="PSSL"] svg {
   filter: invert(1) !important;
 }
+
+/* Size the custom PSSL icon to match FontAwesome icons */
+a[title="PSSL"] svg,
+a[title="PSSL"] img {
+  height: 32px !important;
+  width: 32px !important;
+  vertical-align: middle; 
+}
