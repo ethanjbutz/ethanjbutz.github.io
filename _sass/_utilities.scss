@@ -606,12 +606,41 @@ mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
 
-/* Custom Social Icon (PSSL) */
-.custom-hover-icon {
-  color: rgb(232, 232, 232); /* Your default off-white */
-  transition: color 0.2s ease-in-out;
+/* 1. Hide the original generated image */
+a[href="https://pssl.mae.ufl.edu"] > * {
+  display: none !important; 
 }
 
-a:hover .custom-hover-icon {
-  color: var(--global-theme-color); /* Changes to blue (or whatever your theme is) on hover */
+/* 2. Fix the Anchor Tag's Bounding Box (Shrinks it from 38.5 down to match the others) */
+a[href="https://pssl.mae.ufl.edu"] {
+  display: inline-block;
+  line-height: 1 !important; 
+}
+
+/* 3. Create the colorable stencil */
+a[href="https://pssl.mae.ufl.edu"]::before {
+  content: "";
+  display: inline-block;
+  
+  /* Lock the height to match FontAwesome's standard 1em (which evaluates to ~32px here) */
+  height: 0.95em;
+  
+  /* Make the width slightly larger than 1em to match the 40x32 aspect ratio of the others */
+  /* If it looks slightly too wide, just change this back to 1em or 1.1em */
+  width: 1em; 
+  
+  background-color: var(--global-text-color); 
+  
+  -webkit-mask: url('https://ethanjbutz.github.io/assets/img/PSSL_White_Square_Website.svg') no-repeat center / contain;
+  mask: url('https://ethanjbutz.github.io/assets/img/PSSL_White_Square_Website.svg') no-repeat center / contain;
+  
+  transition: background-color 0.2s ease-in-out;
+  
+  /* FontAwesome's exact baseline offset trick */
+  vertical-align: -0.125em; 
+}
+
+/* 4. Change the stencil's color to your theme color on hover */
+a[href="https://pssl.mae.ufl.edu"]:hover::before {
+  background-color: var(--global-theme-color) !important;
 }
