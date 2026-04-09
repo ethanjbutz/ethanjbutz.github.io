@@ -213,14 +213,3 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
-
-/* Invert the PSSL SVG in dark mode */
-html[data-theme="light"] a[title="PSSL"] svg {
-  filter: invert(1) !important;
-}
-
-/* 1. Ensure the hover overrides the light mode invert perfectly */
-html[data-theme="light"] a[title="PSSL"]:hover svg,
-html[data-theme="dark"] a[title="PSSL"]:hover svg {
-  filter: none !important;
-}
