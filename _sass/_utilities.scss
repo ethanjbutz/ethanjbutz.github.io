@@ -625,15 +625,17 @@ a[href="https://pssl.mae.ufl.edu"]::before {
   height: 0.95em;
   width: 1em; 
   
-  /* THE MAGIC FIX: Inherit the link's color dynamically! */
-  /* This relies entirely on the template's native behavior. */
-  background-color: currentColor; 
+  /* Use the theme's text color for the default state so it handles light/dark mode */
+  background-color: var(--global-text-color); 
   
   -webkit-mask: url('https://ethanjbutz.github.io/assets/img/PSSL_White_Square_Website.svg') no-repeat center / contain;
   mask: url('https://ethanjbutz.github.io/assets/img/PSSL_White_Square_Website.svg') no-repeat center / contain;
   
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   vertical-align: -0.125em; 
 }
 
-/* DELETE the "a[href="https://pssl.mae.ufl.edu"]:hover::before" block completely! */
+/* 4. The Nuclear Hover Fix */
+a[href="https://pssl.mae.ufl.edu"]:hover::before {
+  /* Hardcode your exact blue hex code here. This completely ignores the theme's variables! */
+  background-color: #007bff !important; 
+}
