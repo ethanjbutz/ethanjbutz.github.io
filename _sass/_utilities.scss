@@ -605,3 +605,13 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+/* Custom Social Icon (PSSL) */
+.custom-hover-icon {
+  color: rgb(232, 232, 232); /* Your default off-white */
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover .custom-hover-icon {
+  color: var(--global-theme-color); /* Changes to blue (or whatever your theme is) on hover */
+}
