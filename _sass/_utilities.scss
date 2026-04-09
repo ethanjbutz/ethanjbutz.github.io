@@ -623,11 +623,11 @@ a[href="https://pssl.mae.ufl.edu"]::before {
   display: inline-block;
   
   /* Lock the height to match FontAwesome's standard 1em (which evaluates to ~32px here) */
-  height: 0.95em;
+  height: 1.0857em;
   
   /* Make the width slightly larger than 1em to match the 40x32 aspect ratio of the others */
   /* If it looks slightly too wide, just change this back to 1em or 1.1em */
-  width: 1em; 
+  width: 1.142857em; 
   
   background-color: var(--global-text-color); 
   
