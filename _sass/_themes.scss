@@ -215,13 +215,6 @@ html[data-theme-setting="light"] {
 }
 
 /* Invert the PSSL SVG in dark mode */
-html[data-theme="dark"] a[title="PSSL"] svg {
+html[data-theme="light"] a[title="PSSL"] svg {
   filter: invert(1) !important;
-}
-
-/* Apply theme color on hover and remove the invert filter */
-a[title="PSSL"]:hover svg {
-  fill: var(--global-theme-color) !important;
-  color: var(--global-theme-color) !important;
-  filter: none !important; 
 }
