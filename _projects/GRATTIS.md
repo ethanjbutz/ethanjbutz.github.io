@@ -2,7 +2,7 @@
 layout: page
 title: GRATTIS
 description: Gravitational Reference Advanced Technology Test in Space - A NASA ESTO funded satellite mission with the goal to confirm performance of the S-GRS, an ultra-sensitive electrostatic inertial accelerometer in space.
-img: assets/img/GRATTIS_Geoid-88_4kb_cropped.png
+img: assets/img/GRATTIS/GRATTIS_Geoid-88_4kb_cropped.png
 importance: 1
 category: work
 related_publications: true

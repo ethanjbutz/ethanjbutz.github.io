@@ -23,7 +23,7 @@ nav_order: 3
           <i class="fa-solid fa-file-pdf"></i> Download PDF
         </a>
       </div>
-      <img src="/assets/img/AGU2025_GRATTIS_Mechanical.png" class="card-img-bottom" alt="GRATTIS Poster Thumbnail">
+      <img src="/assets/img/GRATTIS/AGU2025_GRATTIS_Mechanical.png" class="card-img-bottom" alt="GRATTIS Poster Thumbnail">
     </div>
   </div>
   
@@ -36,7 +36,7 @@ nav_order: 3
           <i class="fa-solid fa-file-pdf"></i> Download PDF
         </a>
       </div>
-      <img src="/assets/img/AGU24_IIP_CMMT.png" class="card-img-bottom" alt="Earth Geodesy Poster Thumbnail">
+      <img src="/assets/img/GRATTIS/AGU24_IIP_CMMT.png" class="card-img-bottom" alt="Earth Geodesy Poster Thumbnail">
     </div>
   </div>
   
