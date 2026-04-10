@@ -2,7 +2,7 @@
 layout: page
 title: Treadmill Tricycle
 description: A mechanical design project to create a tricycle powered by walking on a mounted treadmill-like surface to power movement.
-img: assets/img/GRATTIS_Geoid-88_4kb_cropped.png
+img: assets/img/GRATTIS/GRATTIS_Geoid-88_4kb_cropped.png
 importance: 3
 category: work
 related_publications: true

@@ -2,7 +2,7 @@
 layout: page
 title: Airplane Couch Universal Remote
 description: Personal project to reporpose controllers embedded into the armrests of 90s aircraft seats to send IR signals for controlling multiple media consoles and TVs.
-img: assets/img/GRATTIS_Geoid-88_4kb_cropped.png
+img: assets/img/GRATTIS/GRATTIS_Geoid-88_4kb_cropped.png
 importance: 1
 category: fun
 related_publications: true
