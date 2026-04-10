@@ -214,15 +214,23 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
-/* Invert the PSSL SVG in dark mode */
+/* Invert the PSSL SVG in light mode and add hover effect */
 html[data-theme="light"] a[title="PSSL"] svg {
   filter: invert(1) !important;
 }
 
-/* Size the custom PSSL icon to match FontAwesome icons */
+/* Size the custom PSSL icon to match FontAwesome icons and add hover styling */
 a[title="PSSL"] svg,
 a[title="PSSL"] img {
   height: 32px !important;
   width: 32px !important;
-  vertical-align: middle; 
+  vertical-align: middle;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect: change the PSSL icon to the theme color */
+a[title="PSSL"]:hover svg,
+a[title="PSSL"]:hover img {
+  color: var(--global-theme-color) !important;
+  fill: var(--global-theme-color) !important;
 }
