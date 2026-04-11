@@ -64,9 +64,6 @@ WORKDIR /srv/jekyll
 RUN gem install --no-document jekyll bundler
 RUN bundle install --no-cache
 
-# patch jekyll-socials to fix relative_url bug
-RUN sed -i "s|#{logo_value | relative_url}|#{context.invoke('relative_url', logo_value)}|g" /usr/local/bundle/gems/jekyll-socials-0.0.6/lib/jekyll-socials.rb
-
 EXPOSE 8080
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
