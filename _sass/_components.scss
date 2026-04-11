@@ -259,3 +259,15 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+.icon-pssl::before {
+  content: '';
+  display: inline-block;
+  width: 0.83em;
+  height: 0.83em;
+  background-color: currentColor;
+  -webkit-mask: url('/assets/img/PSSL_Logos/PSSL_Square_Website.svg') no-repeat center;
+  mask: url('/assets/img/PSSL_Logos/PSSL_Square_Website.svg') no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  vertical-align: -0.05em;
+}
